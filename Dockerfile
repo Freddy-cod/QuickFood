@@ -11,4 +11,5 @@ COPY . .
 RUN javac -d . *.java
 
 # Set the entry point
-CMD ["java", "-cp", ".:/app", "Quickfood"]
+CMD ["java", "-cp", ".", "Quickfood"]
+
