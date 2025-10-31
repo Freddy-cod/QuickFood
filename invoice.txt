@@ -1,0 +1,10 @@
+Order number 12212
+Customer: 111
+Email: 12121
+Phone number: 111
+Location: Cape Town
+You have ordered the following from 12121 in 21212:
+12 x Pizza (R12.00)
+Total: R144.00
+Sorry, no driver available in the restaurant's area.
+If you need to contact the restaurant, their number is 21212.
