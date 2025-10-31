@@ -10,5 +10,5 @@ COPY . .
 # Compile all Java source files (handles multiple files)
 RUN javac *.java
 
-# Set the entry point to run the main class
-CMD ["java", "Quickfood"]
+# classpath
+CMD ["java", "-cp", ".", "Quickfood"]
