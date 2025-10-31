@@ -7,8 +7,8 @@ WORKDIR /app
 # Copy the source code to the container
 COPY . .
 
-# Compile all Java source files (handles multiple files)
-RUN javac *.java
+# Compile all Java source files, creating package directories if present
+RUN javac -d . *.java
 
-# classpath
-CMD ["java", "-cp", ".", "Quickfood"]
+# Set the entry point
+CMD ["java", "-cp", ".:/app", "Quickfood"]
